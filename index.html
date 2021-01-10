@@ -1,48 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Portfolio Website</title>
-	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+	<title>nikhil Vishwakarma - Portfolio</title>
+	<meta content="" name="description">
+	<meta content="" name="keywords">
+
+	<!-- Favicons -->
+	<link href="images/logo.png" rel="icon">
+	<link href="images/logo.png" rel="apple-touch-icon">
 
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/fontawesome/css/all.css">
-	
+	<script src="https://kit.fontawesome.com/6e43909ff5.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />	
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+
 	<header class="container">
 		<nav class="navbar navbar-expand-lg navbar-expand-xl navbar-light">
 		  <a class="navbar-brand" href="#">
-		    <img src="images/logo.png" width="40" height="40" alt="">
+		    <img src="images/logo.png" width="50" height="50" alt="Home-page">
 		  </a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="navbar-button" onclick="myFunction()">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		    <div class="navbar-nav">
-			    <a class="nav-item nav-link mr-md-3 active" href="#"><b>About</b></a>
-			    <a class="nav-item nav-link mr-md-3" href="#"><b>Works</b></a>
-			    <a class="nav-item nav-link mr-md-3" href="#"><b>Services</b></a>
-			    <a class="nav-item nav-link mr-md-3" href="#"><b>Contact</b></a>
+			    <a class="nav-item nav-link mr-md-3 active" href="#bio-area"><b>About</b></a>
+			    <a class="nav-item nav-link mr-md-3" href="#portfoliowork"><b>Works</b></a>
+			    <a class="nav-item nav-link mr-md-3" href="#services"><b>Services</b></a>
+			    <a class="nav-item nav-link mr-md-3" href="#contactme"><b>Contact</b></a>
 		    </div>
 		  </div>
 
 		  <div class="d-none d-md-none d-lg-block" style="float: right;">
 		  		<div class="navbar-nav social-links">
-		  			<a class="nav-item nav-link mr-md-2" href="#" id="lift-up-element"><i class="fab fa-facebook"></i></a>
-		  			<a class="nav-item nav-link mr-md-2" href="#" id="lift-up-element"><i class="fab fa-instagram"></i></a>
-		  			<a class="nav-item nav-link mr-md-2" href="#" id="lift-up-element"><i class="fab fa-github"></i></a>
-		  			<a class="nav-item nav-link mr-md-2" href="#" id="lift-up-element"><i class="fab fa-linkedin"></i></a>
+		  			<a class="nav-item nav-link mr-md-2" href="https://www.linkedin.com/in/vishwakarmanikhil/" target="_blank" id="lift-up-element"><i class="fab fa-linkedin"></i></a>		  			
+		  			<a class="nav-item nav-link mr-md-2" href="https://github.com/vishwakarmanikhil" target="_blank" id="lift-up-element"><i class="fab fa-github"></i></a>
+		  			<a class="nav-item nav-link mr-md-2" href="https://www.facebook.com/profile.php?id=100047871463007" target="_blank" id="lift-up-element"><i class="fab fa-facebook"></i></a>
+		  			<a class="nav-item nav-link mr-md-2" href="https://www.instagram.com/nikhil_vishwakarma__/" target="_blank" id="lift-up-element"><i class="fab fa-instagram"></i></a>
 		  		</div>
 		  </div>
 		</nav>
 	</header>
 
-	<div class="container personInfo">
+	<div class="container personInfo content-section" id="bio-area">
 		<div class="row">
 			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-				<h1 class="personText"><b>Hey, I'm a <br><span style="color: #34A1CD;">Web-App</span> Developer.</b></h1>
+				<h1 class="personText"><b>Hey, I'm a <br><span style="color: #34A1CD;">Web</span> Developer.</b></h1>
 				<div class="personMessage">
 					<p>Hi, I'm Nikhil a Web developer, Web designer from Mumbai, India. I help brands turn their ideas into high quality products.</p>
 				</div>
@@ -67,7 +76,181 @@
 		</div>
 	</div>
 
-	<div class="space-div">	</div>
+
+
+	<div class="container content-section" id="services">
+		<div class="my-expertise">
+			<div class="container-title text-center" data-aos="fade-up">
+				<p class="title">My Skills</p>
+				<h1 class="h1-title">My Expertise</h1>
+			</div>
+			<div class="row" data-aos="fade-up">
+				 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+				 	<div class="service-card">
+				 		<div class="service-title">
+					 		<div class="service-title-img-s">
+					 			<img src="images/1.svg" class="service-icon">
+					 		</div>
+					 		<h3 class="service-h3">Strategy & Direction</h3>
+					 	</div>
+					 	<p><strong>Understand First.</strong> Strategic design is the fusion of your organizational goals with every aspect of your design process. You aren’t simply designing a user interface that looks good and is usable and accessible. You’re designing an interface that will help you accomplish your organization’s objectives.</p>
+				 	</div>
+				 </div>
+				 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+				 	<div class="service-card">
+				 		<div class="service-title">
+					 		<div class="service-title-img-b">
+					 			<img src="images/2.svg" class="service-icon">
+					 		</div>
+					 		<h3 class="service-h3">Branding & Logo</h3>
+					 	</div>
+					 	<p><strong>Position the Brand.</strong> You’ve established the purpose of your website, set some goals you want to achieve, identified your audience and determined your brand image. You can now proceed to implement it. So how do you make design decisions sync with your strategy?</p>
+				 	</div>
+				 </div>
+			</div>
+			<div class="row" data-aos="fade-up">
+				 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+				 	<div class="service-card">
+				 		<div class="service-title">
+					 		<div class="service-title-img-m">
+					 			<img src="images/3.svg" class="service-icon">
+					 		</div>
+					 		<h3 class="service-h3">Motion & Animation</h3>
+					 	</div>
+					 	<p><strong>Communicate to all.</strong> We believe that well-designed animations can contribute significantly to the appeal and user-friendliness of web and mobile apps. When applied properly, effective animations are capable of building a strong connection between users and the content on the screen.</p>
+				 	</div>
+				 </div>
+				 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+				 	<div class="service-card">
+				 		<div class="service-title">
+					 		<div class="service-title-img-d">
+					 			<img src="images/4.svg" class="service-icon">
+					 		</div>
+					 		<h3 class="service-h3">Development</h3>
+					 	</div>
+					 	<p><strong>Bringing work to life.</strong> Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.</p>
+				 	</div>
+				 </div>
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="container content-section" id="portfoliowork">
+		<div class="my-work" data-aos="fade-up">
+			<div class="container-title text-center">
+				<p class="title">portfolio</p>
+				<h1 class="h1-title">All Creative Work</h1>
+			</div>
+			<div class="row">
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+				 	<div class="work-card">
+				 		<div class="work-card-tile">
+				 			<img src="images/projectimage1.png" class="work-card-image">
+				 		</div>
+				 		<div class="work-card-text">
+				 			<div class="project-detail text-center">
+				 				<div class="project-name">
+				 					<p>App Landing page</p>
+					 			</div>
+					 			<a href="https://dailybtrial.000webhostapp.com/" class="project-button ">Visit Website</a>
+				 			</div>
+				 		</div>
+				 	</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+				 	<div class="work-card">
+				 		<div class="work-card-tile">
+				 			<img src="images/projectimage2.png" class="work-card-image">
+				 		</div>
+				 		<div class="work-card-text">
+				 			<div class="project-detail text-center">
+				 				<div class="project-name">
+				 					<p>Community Website</p>
+					 			</div>
+					 			<a href="https://hungryminddemo.000webhostapp.com/" class="project-button">Visit Website</a>
+				 			</div>
+				 		</div>
+				 	</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+				 	<div class="work-card">
+				 		<div class="work-card-tile">
+				 			<img src="images/projectimage3.png" class="work-card-image">
+				 		</div>
+				 		<div class="work-card-text">
+				 			<div class="project-detail text-center">
+				 				<div class="project-name">
+				 					<p>E-commere Website</p>
+					 			</div>
+					 			<a href="https://ecommstores.000webhostapp.com/" class="project-button">Visit Website</a>
+				 			</div>
+				 		</div>
+				 	</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+				 	<div class="work-card">
+				 		<div class="work-card-tile">
+				 			<img src="images/projectimage4.png" class="work-card-image">
+				 		</div>
+				 		<div class="work-card-text">
+				 			<div class="project-detail text-center">
+				 				<div class="project-name">
+				 					<p>Product landing Home Page</p>
+					 			</div>
+					 			<a href="#" class="project-button">Visit Website</a>
+				 			</div>
+				 		</div>
+				 	</div>
+				</div>				
+			</div>
+		</div>
+	</div><br><br>
+
+	<div class="container-fluid content-section" id="about-me">
+		<div style="height: 1068.6px;" class="bg-block-blue"></div>
+		<div class="container">
+			<div class="aboutme" data-aos="fade-up">
+				<div class="aboutme-title">
+					<p class="title">Nice to meet you.</p>
+					<h1 class="h1-title">Hey, I'm Nikhil, <br> Web Developer</h1>
+				</div>
+				<p class="paragraph-large">Hi, my name is Nikhil Vishwakarma and I’m a freelance web designer from Mumbai, India. I have over 2 years experience in leading teams and Creating different Websites. I spend my time in, practically every day, experimenting with HTML, CSS, and JavaScript.I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction. I do my best to stay on top of changes in the state of the art so that I can meet challenges with tools well suited to the job at hand.</p>
+			</div>	<br><br>
+			<div class="row">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+					<a href="https://www.linkedin.com/in/vishwakarmanikhil/" target="_blank">
+						<div class="social-icon-block" data-aos="zoom-in-left" data-aos-duration="2000" data-aos-delay="300">
+						<img src="images/linkedin.png" class="social-logo">
+						</div>
+					</a>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+					<a href="https://github.com/vishwakarmanikhil" target="_blank">
+						<div class="social-icon-block" data-aos="zoom-in-down" data-aos-duration="2000" data-aos-delay="300">
+							<img src="images/github.png" class="social-logo">
+						</div>
+					</a>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+					<a href="https://www.facebook.com/profile.php?id=100047871463007" target="_blank">
+						<div class="social-icon-block" data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="300">
+							<img src="images/facebook.png" class="social-logo">
+						</div>
+					</a>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+					<a href="https://www.instagram.com/nikhil_vishwakarma__/" target="_blank">
+						<div class="social-icon-block" data-aos="zoom-in-right" data-aos-duration="2000" data-aos-delay="300">
+							<img src="images/instagram.png" class="social-logo">
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>	
+	</div><br><br>
 
 
 	<footer class="container">
@@ -125,7 +308,7 @@
 
 	<div class="space-div">	</div>
 
-	<div class="container copyright-link">
+	<div class="container copyright-link" id="contactme">
 		<div class="copyright-text d-flex justify-content-center">
 			<p>© 2020 Copyright: <span style="color: #34A1CD;">Nikhil Vishwakarma</span></p>
 		</div>		
@@ -137,7 +320,7 @@
 
 	<script type="text/javascript" src="assets/jquery/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/fontawesome/js/all.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
