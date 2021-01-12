@@ -22,7 +22,7 @@ $(window).on('resize', function() {
     aos_init();
   });
   
-
+var scrolltoOffset = $('#header').outerHeight() - 1;
 // Activate smooth scroll on page load with hash links in the url
   $(document).ready(function() {
     if (window.location.hash) {
